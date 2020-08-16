@@ -9,7 +9,7 @@ inp.on("line", (data) => {
 inp.on("close", () => {
 
 //start-here
-let a=[10,'Arun',16.6];
+
 console.log(parseInt(userInput[0])+parseInt(userInput[1]));
   
 //end-here
