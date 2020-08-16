@@ -9,9 +9,12 @@ inp.on("line", (data) => {
 inp.on("close", () => {
 
 //start-here
-let a=[10,'Arun',16.6];
-console.log(parseInt(userInput[0])+parseInt(userInput[1]));
-  
+//Circumferance Of circle
+let a= 2*Math.PI*userInput[0];
+let circumference = a.toFixed(2);
+  if(circumference>0){
+console.log(circumference);}
+  else{
+  console.log("error");}
 //end-here
 });
-
