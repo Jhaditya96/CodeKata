@@ -8,6 +8,15 @@ inp.on("line", (data) => {
 });
 inp.on("close", () => {
 //start-here
+
+//Problem:A person saves his monthly saving according to given 
+//schema. He saves same amount of money which is equal to the 
+//money saved in immediate previous two months. Assume, initially 
+//he saved 1000 rupees and in first month he saved another 1000. 
+//Your task is to tell how much he had totally saved at the end 
+//of ‘n’ months.
+//Print total sivings at end of 'n' mnths
+
 let sum =0;
 let a = 1000;
 let b = 1000;
