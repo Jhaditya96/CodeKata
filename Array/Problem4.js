@@ -15,7 +15,7 @@ inp.on("close", () => {
 //he saved 1000 rupees and in first month he saved another 1000. 
 //Your task is to tell how much he had totally saved at the end 
 //of ‘n’ months.
-//Print total sivings at end of 'n' mnths
+//Print total sivings at end of 'n' months
 
 let sum =0;
 let a = 1000;
