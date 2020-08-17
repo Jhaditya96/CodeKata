@@ -8,6 +8,7 @@ inp.on("line", (data) => {
 });
 inp.on("close", () => {
 //start-here
+//Code to find min out of 3 numbers
 let splitter = userInput[0].split(" ");
 console.log(Math.min(splitter[0],splitter[1]));
 //end-here
